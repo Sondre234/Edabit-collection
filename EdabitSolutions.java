@@ -99,15 +99,15 @@ public class Edabit {
     public static void main(String[] args) {
 
         System.out.println(removeVowels("I wonder what this sentence would look like without vowels."));
-        int[] yo = {1, 2, 3, 4, 5, 6, 7};
-        System.out.println(sevenBoom(yo));
-        System.out.println(sum(yo));
+        int[] arr = {1, 2, 3, 4, 5, 6, 7};
+        System.out.println(sevenBoom(arr));
+        System.out.println(sum(arr));
         System.out.println(add(4, 0));
         dogBark();
         System.out.println(validate("abc"));
         System.out.println(isEven(42));
         System.out.println(tverrSum("12", "1"));
-        System.out.println(convertName("Sondre Myrmel"));
+        System.out.println(convertName("Barrack Obama"));
 
     }
 }
