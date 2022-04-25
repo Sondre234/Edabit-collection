@@ -1,0 +1,137 @@
+/* flex-box */
+
+*{
+    padding: 0;
+    margin: 0;  
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150%;
+}
+
+.container-welcome {
+    padding-top: 150px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.container-1 {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+
+.box-1{
+    flex: 1;
+}
+
+.box-2{
+    flex: 1;
+}
+
+.box-3{
+    flex: 1;
+}
+
+.founder{
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+
+/* Linker */
+
+a:link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #494949;
+    color: #85751b;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+
+
+/* Header og Footer */
+header {
+    background-color: #494949;
+    width: 100%;
+    height: 95px;
+}
+
+.easyfit-logo {
+    margin-left: 30px;
+    margin-top: 20px;
+    float:left;
+}
+
+.easyfit-logo img {
+    width: 40%;
+}
+
+.nav1 {
+    display: block;
+    white-space: nowrap;
+    position: relative;
+    
+}
+
+.nav1 li {
+    display: inline-block;
+    margin: 0.5em;
+    position: -webkit-sticky;
+    position: sticky;
+    white-space: nowrap;
+}
+
+.nav1 li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #b39c1b;
+    font-size: 1.5rem;
+    padding: 30px;
+}
+
+
+
+
+
+.footer
+{
+    position: fixed;
+    background-color: #494949;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer > p
+{
+    color: #85751b;
+    text-align: center;
+    padding: 25px;
+}

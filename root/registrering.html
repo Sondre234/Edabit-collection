@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<header></header>
+<head>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='registrering.css'>
+    
+</head>
+
+<body>
+
+    <script src="registrering.js"></script>
+ 
+    <div class="main">
+
+        <form action="/registrering.php" method="get">
+
+            <section>
+            <fieldset id="en">
+            <p class="headline"> <b>Create account</b> </p>
+            <label for="fname">Username:</label>
+            <input type="text" name="Username" placeholder="Username" required> <br>
+            <label for="mail">Email:</label>
+            <input type="text" name="yourmail" placeholder="example@domain.com" required> <br>
+            <label for="Lname">Password:</label>
+            <input type="password" name="Password" id="password" placeholder="Password" required> <br>
+            <label for="Lname">Repeat Password:</label>
+            <input type="password" name="Repeat Password" id="confirm_password" placeholder="Password" required> <br>
+
+            <button onclick="onclick()" id="registerButton">Register</button>
+            
+
+            </fieldset>
+            </section>
+            </form>
+        </div>
+    </div>
+</body>
